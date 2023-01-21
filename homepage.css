@@ -1,0 +1,356 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Section{
+    background: url(images/n1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin-bottom: 100px;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    flex-flow: nowrap;
+    margin-left: 80px;
+}
+h1{
+    margin-right: 80px;
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 20px;
+}
+h1:hover{
+    cursor: pointer;
+}
+li{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    white-space: nowrap;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.qoute{
+    font-size: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 180px;
+    color: green;
+    word-spacing: 20px;
+    padding-bottom: 60px;
+}
+.content{
+    justify-content: center;
+    padding-left: 150px;
+    color: white;
+    font-size: 50px;
+    padding-right: 150px;
+}
+.logo{
+    text-decoration: none;
+}
+.services-heading, .products-heading{
+    color: black;
+    display: block;
+    max-width: 600px;
+}
+.services-start, .products-start{
+    color: green;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.pet-boarding-heading{
+    margin-left: 50px;
+}
+.pet-boarding{
+    border: none;
+    background-color: rgb(238, 232, 232);
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px 10px ;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 140px;
+}
+.pet-boarding-paragraph{
+    margin-left: 50px;
+}
+
+
+.pet-exercise-heading{
+    margin-left: 50px;
+}
+.pet-exercise{
+    border: none;
+    background-color: rgb(238, 232, 232);
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px 10px ;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.pet-exercise-paragraph{
+    margin-left: 50px;
+}
+
+
+.pet-feeding-heading{
+    margin-left: 50px;
+}
+.pet-feeding{
+    border: none;
+    background-color: rgb(238, 232, 232);
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px 10px ;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-right: 140px;
+}
+.pet-feeding-paragraph{
+    margin-left: 50px;
+}
+
+.pet-grooming-heading{
+    margin-left: 50px;
+}
+.pet-grooming{
+    border: none;
+    background-color: rgb(238, 232, 232);
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px 10px ;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.pet-grooming-paragraph{
+    margin-left: 50px;
+}
+
+.pet-training-heading{
+    margin-left: 50px;
+}
+.pet-training{
+    border: none;
+    background-color: rgb(238, 232, 232);
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px 10px ;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-right: 140px;
+}
+.pet-training-paragraph{
+    margin-left: 50px;
+}
+
+.pet-treatment-heading{
+    margin-left: 50px;
+}
+.pet-treatment{
+    border: none;
+    background-color: rgb(238, 232, 232);
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px 10px ;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.pet-treatment-paragraph{
+    margin-left: 50px;
+}
+.food1{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 200px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.food2{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.food3{
+   width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.food4{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.food1-image,.food2-image,.food3-image,.food4-image{
+    width: 180px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.food-quality{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.food-price{
+    color: green;
+    margin-left: 70px;
+    font-weight: bolder;
+}
+.special-offer{
+    margin-top: 50px;
+    background: url(./images/special-offer1.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+.special-offer-heading{
+    margin-bottom: 800px;
+}
+.team-members-heading{
+    color: black;
+    display: block;
+    max-width: 600px;
+}
+.team-members-start{
+    color: green;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+.member1{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 200px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.member2{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.member3{
+   width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.member4{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 40px;
+    min-height: 300px;
+    border: none;
+    background-color: rgb(238, 232, 232);
+}
+.member1-image,.member2-image,.member3-image,.member4-image{
+    width: 180px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.member-name{
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.food-price{
+    color: black;
+    margin-left: 45px;
+    font-weight: normal;
+}
+.contact-us-start{
+    color: green;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 20px;   
+}
+.contact-us-heading{
+    color: black;
+    display: block;
+    max-width: 600px;
+}
+
+.table{
+    width: 100%;
+    white-space: pre-wrap;
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 1.8em;
+}
+.footer{
+    background-color: lightgray;
+    margin-top: 100px;
+}
+.copyright{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 30px 30px;
+    padding-left: 80px;
+    display: flex;   
+}
+.copy{
+    padding-right: 600px;
+}
+.home-button{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    color: green;
+}
+.contact-us-button{
+    margin-left: 200px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    color: green;
+}
+.our-team-button{
+    margin-left: 200px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    color: green;
+}
